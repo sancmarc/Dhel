@@ -1,0 +1,200 @@
+/* start nav */
+.bg-nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contactInfo.container .row .col-md-6 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#contactInfo.container .row .col-md-6 a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.scrolled {
+    visibility: hidden;
+}
+.scrolled-nav {
+    background-color: #6c757d!important;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.navbar-toggler {
+    border: 1px solid;
+}
+
+#navbar .navbar-nav .nav-item .active {
+    color: black;
+    background-color: white;
+}
+
+/* end nav */
+/* carousel  */
+#carouselFurniture .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.carousel-caption {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* end carousel */
+/* purpose */
+#purpose {
+    background-color: #f5f5f5;
+}
+/* end purpose */
+/* contact us */
+#contactUs {
+    background-color: #f5f5f5;
+}
+
+.gradient-bgcolor {
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+/* end contact us */
+/* developer footer */
+.developer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.developer a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* end developer footer */
+/*animation effect*/
+.container-box {
+    -webkit-transition: -webkit-transform 1.5s, opacity 0.5s;
+    transition: transform 1.5s, opacity 0.5s;
+}
+
+.container-box.left {
+    -webkit-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+    -webkit-transition: all 0.3s 1s ease-in;
+        transition: all 0.3s 1s ease-in;
+}
+
+.container-box.right {
+    -webkit-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+    display: hidden;
+    -webkit-transition: all 0.3s 1s ease-in;
+        transition: all 0.3s 1s ease-in;
+}
+
+.container-box.right::after {
+    display: hidden;
+}
+
+.container-box.top {
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+    -webkit-transition: all 0.3s 1s ease-in;
+        transition: all 0.3s 1s ease-in;
+}
+
+.container-box.top-rotate {
+    -webkit-transform: translateY(-100px) rotate(360deg);
+    -ms-transform: translateY(-100px) rotate(360deg);
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+}
+
+.container-box.bot {
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: 0;
+    -webkit-transition: all 0.3s 1s ease-in;
+        transition: all 0.3s 1s ease-in;
+}
+
+.container-box.active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-transition: all 0.3s 1s ease-in;
+        transition: all 0.3s 1s ease-in;
+}
+
+/*end animation effect*/
+/* row card size */
+.card {
+    margin: auto;
+}
+.card img {
+    height: 300px;
+    object-fit: contain;
+}
+@media screen and (min-width: 420px) and (max-width: 767px) {
+    .card img {
+        object-fit: contain;
+        max-width: 300px;
+    }
+    .card {
+        max-width: 412px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .card img {
+        max-height: 300px;
+        object-fit: contain;
+    }
+    .card {
+        max-height: 300px;
+        
+    }
+}
+
+ /* category cover top css */
+ #coverTop img {
+    /* Full height */
+    height: 75vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+/* end category cover top css */
+/* login css */
+.bg-login {
+    background-color: #f5f5f5;
+}
+/* end login css */
+
+
